@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import generate_script
 import os
-open_api_key = st.secrets("OPEN_API_KEY")
+open_api_key = st.secrets["OPEN_API_KEY"]
 
 st.title("🎬 숏츠 스크립트 생성기")
 
